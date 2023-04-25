@@ -12,7 +12,7 @@ class PedidosController extends Controller
     public function index()
     {
         //
-        return(pedidos.index);
+        return  view(pedidos.index);
     }
 
     /**
